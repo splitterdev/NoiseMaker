@@ -1,0 +1,9 @@
+/build
+/bin
+/obj
+*.exe
+*.dll
+*.wav
+*.cbp
+*.depend
+*.layout

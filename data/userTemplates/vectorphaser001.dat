@@ -1,0 +1,24 @@
+NODE:0:OUTPUT NODE:644:539
+PARAM:0:Vol:1
+
+NODE:1:Sine Generator:579:290
+PARAM:1:Freq:3
+PARAM:1:Vol:1
+
+NODE:2:Channel Selector:579:425
+PARAM:2:L/R:0
+
+NODE:3:Channel Selector:715:424
+PARAM:3:L/R:1
+
+NODE:4:Reverse Polarization:715:290
+
+NODE:7:Sine Generator:713:149
+PARAM:7:Freq:3.2
+PARAM:7:Vol:1
+
+LINK:7:4:INPUT
+LINK:4:3:INPUT
+LINK:2:0:INPUT
+LINK:1:2:INPUT
+LINK:3:0:INPUT

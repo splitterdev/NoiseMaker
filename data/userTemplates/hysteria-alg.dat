@@ -1,0 +1,30 @@
+NODE:0:OUTPUT NODE:686:519
+PARAM:0:Vol:1
+
+NODE:1:Sine Generator:562:91
+PARAM:1:Freq:4
+PARAM:1:Vol:0.5
+
+NODE:2:Input Selector:687:315
+PARAM:2:Input:0.179626
+PARAM:2:Vol:1
+
+NODE:3:Noise Generator:444:315
+
+NODE:4:Channel Inverter:831:94
+PARAM:4:Invert:0
+
+NODE:5:Reverse Polarization:562:244
+
+NODE:6:Reverse Polarization:831:259
+
+LINK:4:6:INPUT
+LINK:1:2:INPUT
+LINK:4:2:INPUT
+LINK:3:2:
+LINK:3:2:Input
+LINK:2:0:INPUT
+LINK:6:2:INPUT
+LINK:5:2:INPUT
+LINK:1:4:INPUT
+LINK:1:5:INPUT
