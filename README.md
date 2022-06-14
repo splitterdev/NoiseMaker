@@ -5,4 +5,4 @@ This is code upload for Noise Maker. Original project has been created back in 2
 Build/compile requirements:
  - Code::Blocks (tested on 17.12)
  - MinGW compiler
- - libraries: SDL2, SDL_ttf, OpenAL, Bass
+ - libraries: SDL2, SDL2_ttf, OpenAL, Bass
